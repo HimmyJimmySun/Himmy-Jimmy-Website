@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himmy Jimmy – Zuhause ist es am schönsten</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('background.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+
+    .gold {
+      font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+      background: linear-gradient(90deg, #FFD700, #FFAA00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    }
+
+    .slogan {
+      font-size: 2rem;
+      color: #ff69b4;
+      margin-top: 1rem;
+      animation: pulse 3s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.9; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+    }
+
+    .links {
+      text-align: center;
+      margin: 2rem 1rem;
+    }
+
+    .links a {
+      margin: 0.5rem 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #ff007f;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background: #ff4fbf;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="gold">Himmy Jimmy</div>
+    <div class="slogan">Zuhause ist es am schönsten</div>
+  </header>
+
+  <div class="links">
+    <a href="https://open.spotify.com/intl-de/album/0F70fIOtWZz2OXk9N1eok2?si=HIrvXgsgSWyk_TNy_7gpQg" target="_blank">Spotify</a>
+    <a href="https://www.tiktok.com/@himmy_jimmy" target="_blank">TikTok</a>
+    <a href="https://www.instagram.com/himmy_jimmy_sun/" target="_blank">Instagram</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Himmy Jimmy – All rights reserved.
+  </footer>
+</body>
+</html>
